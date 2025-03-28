@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/DanielGavin/ols/master/misc/ols.schema.json",
+    "collections": [
+        {
+            "name": "base",
+            "path": "C:/Users/GlekLaptop/scoop/apps/odin/current/base/"
+        },
+        {
+            "name": "core",
+            "path": "C:/Users/GlekLaptop/scoop/apps/odin/current/core/"
+        },
+        {
+            "name": "vendor",
+            "path": "C:/Users/GlekLaptop/scoop/apps/odin/current/vendor/"
+        },
+        {
+            "name": "app",
+            "path": "./src/"
+        }
+    ],
+    "disable_parser_errors": false,
+    "enable_document_symbols": true,
+    "enable_fake_methods": true,
+    "enable_format": true,
+    "enable_hover": true,
+    "enable_inlay_hints": false,
+    "enable_procedure_context": true,
+    "enable_procedure_snippet": true,
+    "enable_references": true,
+    "enable_semantic_tokens": true,
+    "enable_snippets": true,
+    "thread_pool_count": 4,
+    "checker_args": "-strict-style -vet-unused -vet-shadowing -vet-using-stmt -vet-using-param -vet-style -vet-semicolon -disallow-do"
+}
