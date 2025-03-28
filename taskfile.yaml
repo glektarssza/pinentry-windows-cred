@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+version: 3
+vars:
+  #-- Project Settings
+  PROJECT_NAME: Pin Entry Windows Credentials
+  PROJECT_DESCRIPTION: A pinentry alternative that uses the Windows Credential APIs to store passphrases.
+  PROJECT_VERSION: v0.0.0
+tasks: {}
